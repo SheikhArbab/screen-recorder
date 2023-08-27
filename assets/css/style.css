@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100vw;   
+    height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.site-wrapper{
+    padding-top: 100px;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    width: 100%;
+    height: 100%;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+      background-image: linear-gradient(60deg, #4158D0 0%, #FFCC70 100%);
+    
+  }
+
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+
